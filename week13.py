@@ -1,2 +1,6 @@
-name = input("이름 입력 : ")
-print(f"제 이름은 {name}입니다")
+import tkinter as tk
+
+window = tk.Tk()
+window.title("클라우드서비스 깃/깃허브 실습")
+window.geometry("500x200")
+window.mainloop()
